@@ -1,5 +1,5 @@
 {
-  "name": "wdw_shop_starter",
+  "name": "ecomnext",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -27,6 +27,7 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+    "@next/swc-win32-x64-msvc": "^14.2.13",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
