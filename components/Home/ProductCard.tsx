@@ -18,8 +18,8 @@ const ProductCard = ({ product }: Props) => {
   const num = Math.round(product.rating.rate)
   const ratingArray = new Array(num).fill(0)
 
-  const items = useSelector((state: RootState) => state.cart.items)
-  console.log(items);
+  // const items = useSelector((state: RootState) => state.cart.items)
+  // console.log(items);
   
 
   const dispatch = useDispatch()
@@ -52,6 +52,7 @@ const ProductCard = ({ product }: Props) => {
         <p className='text-black text-base line-through font-semi-bold opacity-50'>{`$${(product.price + 10).toFixed(2)}`}</p>
         <p className='text-black text-lg font-bold opacity-80'>${product.price}</p>
       </div>
+
       <div className='mt-4 items-center space-x-2'>
         <Button onClick={() => addToCartHandler(product)} size={"icon"}>
           <ShoppingBag size={18} />
