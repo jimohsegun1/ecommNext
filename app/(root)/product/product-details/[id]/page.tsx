@@ -73,7 +73,7 @@ const ProductDetails = async ({ params }: { params: { id: string } }) => {
             SKU: {Math.random() * 500}
           </p>
 
-          <AddToCart />
+          <AddToCart product={singleProduct} />
         </div>
       </div>
 
