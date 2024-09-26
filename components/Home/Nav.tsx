@@ -15,6 +15,7 @@ const Nav = () => {
         {/* <Link href="/">
           <Image src="/images/logo.png" alt="logo" width={50} height={50} />
         </Link> */}
+        {/* changed logo */}
         <Link href="/" className="flex items-center space-x-1">
           <Image src="/images/logo.png" alt="logo" width={50} height={50} />
           <span className="font-extrabold  text-2xl text-black">ecommNext</span>

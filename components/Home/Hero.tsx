@@ -15,7 +15,7 @@ const Hero = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
             praesentium nostrum, at voluptatem ducimus magnam saepe aut
             repellendus, laboriosam fuga sed. Provident recusandae veritatis
-            necessitatibus, ut numquam nesciunt dicta eligendi.
+            necessitatibus, ut numquam nesciunt dicta eligendi , elendilgod.
           </p>
 
           <div className="flex mt-6 items-center space-x-4 ">
