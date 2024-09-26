@@ -19,10 +19,10 @@ const Hero = () => {
           </p>
 
           <div className="flex mt-6 items-center space-x-4 ">
-            <Button size={"lg"} className="bg-blue-700">
+            <Button size={"lg"} className="bg-blue-700 rounded">
               Shop Now
             </Button>
-            <Button size={"lg"}> Explore More</Button>
+            <Button size={"lg"} className="rounded"> Explore More</Button>
           </div>
         </div>
         <div className="hidden lg:block ">

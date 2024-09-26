@@ -75,10 +75,10 @@ const ProductCard = ({ product }: Props) => {
       </div>
 
       <div className="mt-4 items-center space-x-2">
-        <Button onClick={() => addToCartHandler(product)} size={"icon"}>
+        <Button onClick={() => addToCartHandler(product)} size={"icon"} className="rounded" >
           <ShoppingBag size={18} />
         </Button>
-        <Button size={"icon"} className="bg-red-500">
+        <Button size={"icon"} className="bg-red-500 rounded">
           <Heart size={18} />
         </Button>
       </div>
