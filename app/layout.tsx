@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/Home/Nav";
-import { ClerkProvider } from '@clerk/nextjs'
+import { ClerkProvider } from "@clerk/nextjs";
 import Footer from "@/components/Home/Footer";
 import StoreProvider from "@/StoreProvider/StoreProvider";
 import { Toaster } from "@/components/ui/toaster";
@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Ecommerce | Next App",
-  description: "Next 14 js ecommerce app",
+  description: "ecommerce app built with next js",
 };
 
 export default function RootLayout({
