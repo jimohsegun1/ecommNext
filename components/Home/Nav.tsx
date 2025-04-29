@@ -20,7 +20,7 @@ const Nav = () => {
           <Image src="/images/logo.png" alt="logo" width={50} height={50} />
           <span className="font-extrabold  text-2xl text-black">ecommNext</span>
         </Link>
-        {/* icons */}
+        {/* icon */}
         <div className="flex item-center space-x-6">
           <SearchBox />
           <HeartIcon size={26} cursor={"pointer"} />
