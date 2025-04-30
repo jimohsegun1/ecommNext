@@ -9,7 +9,7 @@ const AllProduct = () => {
   const [products, setProducts] = useState<Product[] | null>(null);
   const [loading, setLoading] = useState(true);
 
-  console.log(products);
+  console.log(products); //products 
 
   useEffect(() => {
     const getData = async () => {
